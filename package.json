@@ -5,7 +5,9 @@
     "main": "webpack.config.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "webpack-dev-server --devtool eval --progress --colors"
+        "dev": "webpack-dev-server --progress --colors",
+        "build:dev": "webpack --env=dev --progress --profile --colors",
+        "build:dist": "webpack --env=prod --progress --profile --colors"
     },
     "author": "",
     "license": "ISC",
@@ -19,6 +21,7 @@
         "style-loader": "^0.18.1",
         "url-loader": "^0.5.8",
         "webpack": "^2.6.1",
-        "webpack-dev-server": "^2.4.5"
+        "webpack-dev-server": "^2.4.5",
+        "webpack-merge": "^4.1.0"
     }
 }
