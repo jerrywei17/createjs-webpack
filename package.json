@@ -1,0 +1,24 @@
+{
+    "name": "webpack-dev-server-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --devtool eval --progress --colors"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "css-loader": "^0.28.3",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "file-loader": "^0.11.1",
+        "html-webpack-plugin": "^2.28.0",
+        "imports-loader": "^0.7.1",
+        "style-loader": "^0.18.1",
+        "url-loader": "^0.5.8",
+        "webpack": "^2.6.1",
+        "webpack-dev-server": "^2.4.5"
+    }
+}
